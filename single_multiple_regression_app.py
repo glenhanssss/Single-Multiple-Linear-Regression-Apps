@@ -12,7 +12,6 @@ st.set_page_config(layout="wide")
 
 # Title for the web app
 st.title("Single/ Multiple Linear Regression Application")
-st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown("<strong>The application reads the first <em>ROW</em> in your file as the <em>Column Title (Variable Name)</em> for each <em>COLUMN</em> in the dataset. So make sure that the first <em>ROW</em> in your file is the name of each <em>Column Title (Variable Name)</em> in the dataset. Also, make sure that every cell in your file is Valid (all cells are filled and there are no duplicates) for better analysis.</strong>", unsafe_allow_html=True)
 st.markdown("<strong>This application allows you to carry out linear regression analysis, both single linear regression and multiple linear regression. The analysis results obtained, namely the regression model and all the visualizations displayed, can help you predict unknown data values using other related and known data values. This really helps businesses, industry, trade, and other sectors.</strong>", unsafe_allow_html=True)
 
