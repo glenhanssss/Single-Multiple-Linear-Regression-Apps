@@ -133,3 +133,8 @@ if dataset:
             # plt.tight_layout()
             # st.pyplot(plt)
 
+st.markdown("""
+    <div style="display: flex; justify-content: center; align-items: center; height: 200px;">
+        <a href="https://www.linkedin.com/in/glenhans/" style="text-align: center; font-size: 24px;"> Connect with me😄 </a>
+    </div>
+    """, unsafe_allow_html=True)
