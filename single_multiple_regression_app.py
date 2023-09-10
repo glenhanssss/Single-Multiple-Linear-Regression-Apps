@@ -22,7 +22,7 @@ dataset = st.file_uploader(label = '')
 
 use_defo = st.checkbox('Use example Dataset')
 if use_defo:
-    dataset = r'C:\Users\Dell\Downloads\day.csv'
+    dataset = r'day.csv'
     st.write("[Dataset Explanation Link](https://drive.google.com/file/d/16l1-ObGv6n3j0qUwy6VyY4BOmTCzmCqO/view?usp=sharing)")
 
 if dataset:
