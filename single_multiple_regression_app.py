@@ -16,7 +16,7 @@ st.markdown("<strong>The application reads the first <em>ROW</em> in your file a
 st.markdown("<strong>This application allows you to carry out linear regression analysis, both single linear regression and multiple linear regression. The analysis results obtained, namely the regression model and all the visualizations displayed, can help you predict unknown data values using other related and known data values. This really helps businesses, industry, trade, and other sectors.</strong>", unsafe_allow_html=True)
 
 # Upload file
-file_format = st.radio('Select file format:', ('csv', 'excel'), key='file_format')
+file_format = st.radio('Select file format:', ('*.csv', '*.xlsx'), key='file_format')
 dataset = st.file_uploader(label = '')
 
 use_defo = st.checkbox('Use example Dataset')
